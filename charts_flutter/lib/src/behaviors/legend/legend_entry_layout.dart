@@ -119,6 +119,7 @@ class SimpleLegendEntryLayout implements LegendEntryLayout {
     return this.runtimeType.hashCode;
   }
 
+  /// This is Rola code
   /// Convert the charts common TextStlyeSpec into a standard TextStyle, while
   /// reducing the color opacity to 26% if the entry is hidden.
   ///
